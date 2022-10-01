@@ -1,5 +1,8 @@
 import { StoreState } from "../interface/state";
 
-const initialOrderState: StoreState = {
-  order: [],
+const initialShoppingState = {
+  items: [],
+};
+export const initialStoreState: StoreState = {
+  shoppingCartState: initialShoppingState,
 };

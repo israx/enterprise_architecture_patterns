@@ -1,5 +1,9 @@
-import { BaseOrder } from "./Order";
+import { Item } from "./Models";
+
+export interface ShoppingCartState {
+  items: Item[];
+}
 
 export interface StoreState {
-  order: BaseOrder[];
+  shoppingCartState: ShoppingCartState;
 }
